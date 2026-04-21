@@ -1,0 +1,6 @@
+name = "nyt-refresher"
+main = "src/index.ts"
+compatibility_date = "2026-04-01"
+
+[vars]
+HBPL_FETCH_URL = "https://hbpl.libguides.com/nyt"

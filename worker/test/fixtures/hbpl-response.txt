@@ -1,0 +1,10 @@
+HTTP/2 302 
+server: nginx
+date: Tue, 21 Apr 2026 22:54:17 GMT
+content-type: text/html; charset=UTF-8
+location: https://nytimes.com/subscription/redeem?campaignId=89YWX&gift_code=465c46c81425d03e
+x-backend-server: libguides-us-6.springyaws.com
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; preload
+

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "NYT Library Refresher",
+  "version": "0.1.0",
+  "description": "Automatically redeems the HBPL library NYT pass when a paywall appears.",
+  "permissions": ["storage"],
+  "host_permissions": ["*://*.nytimes.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.nytimes.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
